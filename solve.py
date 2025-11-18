@@ -92,5 +92,5 @@ print("\nDQ Flagged Records Identified:")
 print(flagged_count)
 
 # Task B: Resolve the DQ Issues
-# Fill the missing values with a placeholder to maintain the record count as the .
+# Fill the missing values with a placeholder to maintain the record count .
 df_goalscorers['scorer'] = df_goalscorers['scorer'].fillna('Unknown Scorer')
