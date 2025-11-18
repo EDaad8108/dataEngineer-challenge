@@ -1,3 +1,4 @@
+PS C:\Users\ehsan\Documents\Misc\Eli Lilly challenge\DataEngineer-Challenge-master> py solve.py
 ----- Q1: Avg Goals per Game (1900-2000) ---
 3.07
 
@@ -58,3 +59,11 @@ CONMEBOL–UEFA Cup of Champions    Claudio Caniggia 14.285714
                      UEFA Euro   Cristiano Ronaldo  1.688782
        UEFA Euro qualification   Cristiano Ronaldo  0.515205
            UEFA Nations League Aleksandar Mitrović  1.182432
+
+----- ADDITIONAL TASK: DATA QUALITY CHECK & RESOLUTION -----
+
+DQ Flagged Records Identified:
+DQ_flag
+OK                     43139
+Missing_Scorer_Name       50
+Name: count, dtype: int64
