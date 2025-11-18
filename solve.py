@@ -74,3 +74,23 @@ stats['percent'] = (stats['player_goals'] / stats['total_goals']) * 100
 top_scorers = stats.sort_values('player_goals', ascending=False).groupby('tournament').head(1)
 
 print(top_scorers[['tournament', 'scorer', 'percent']].sort_values('tournament').to_string(index=False))
+
+
+
+# ----- Additional Tasks: Data Quality Check and Resolution ---
+print("\n----- ADDITIONAL TASK: DATA QUALITY CHECK & RESOLUTION -----")
+
+# Task A: Create DQ Flag for Missing Goalscorers
+# I checked the most critical column for missing data
+df_goalscorers['DQ_flag'] = df_goalscorers['scorer'].apply(
+    lambda x: 'Missing_Scorer_Name' if pd.isna(x) else 'OK'
+)
+
+# Display count of flagged records to show issue was identified
+flagged_count = df_goalscorers['DQ_flag'].value_counts()
+print("\nDQ Flagged Records Identified:")
+print(flagged_count)
+
+# Task B: Resolve the DQ Issues
+# Fill the missing values with a placeholder to maintain the record count as the .
+df_goalscorers['scorer'] = df_goalscorers['scorer'].fillna('Unknown Scorer')
