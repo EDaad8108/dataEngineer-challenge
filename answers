@@ -1,0 +1,60 @@
+----- Q1: Avg Goals per Game (1900-2000) ---
+3.07
+
+----- Q2: Shootout Wins by Country ---
+winner
+Abkhazia                2
+Algeria                 7
+Angola                  7
+Antigua and Barbuda     2
+Argentina              14
+                       ..
+Zambia                 13
+Zanzibar                2
+Zimbabwe                7
+Åland                   1
+Åland Islands           2
+Name: count, Length: 163, dtype: int64
+
+----- Q3: Reliable Key Strategy ---
+Answer: I created a Composite Key using [Date] + [Home_Team] + [Away_Team].
+
+----- Q4: Shootout winners after 1-1 draw ---
+['Taiwan' 'South Korea' 'Guinea' 'Mauritius' 'Singapore'
+ 'Vietnam Republic' 'Qatar' 'Morocco' 'Malaysia' 'Tunisia' 'Argentina'
+ 'Iran' 'Mali' 'Czechoslovakia' 'Togo' 'Burkina Faso' 'Ghana' 'Kenya'
+ 'Thailand' 'Ivory Coast' 'Iraq' 'Spain' 'Saudi Arabia' 'Chad' 'Kuwait'
+ 'Mozambique' 'Bahrain' 'France' 'Belgium' 'Zimbabwe' 'Ethiopia' 'Nigeria'
+ 'Algeria' 'Sweden' 'Eswatini' 'Colombia' 'Germany' 'Uganda' 'Italy'
+ 'Fiji' 'Martinique' 'China PR' 'Switzerland' 'Bulgaria' 'Denmark'
+ 'Mexico' 'Uruguay' 'Zanzibar' 'Honduras' 'Sudan' 'Croatia' 'Russia'
+ 'Trinidad and Tobago' 'Cuba' 'Brazil' 'Namibia' 'Zambia' 'Romania'
+ 'Antigua and Barbuda' 'Sri Lanka' 'Barbados' 'Egypt'
+ 'United Arab Emirates' 'North Korea' 'Angola' 'Canada' 'Cyprus' 'Belarus'
+ 'Serbia' 'South Africa' 'Senegal' 'Bangladesh' 'Benin' 'Malawi'
+ 'New Caledonia' 'Rwanda' 'Syria' 'Japan' 'Slovakia' 'Latvia' 'Costa Rica'
+ 'Botswana' 'Seychelles' 'Turkey' 'Ukraine' 'Panama' 'Lesotho'
+ 'Ellan Vannin' 'Padania' 'Paraguay' 'Guatemala' 'DR Congo'
+ 'Basque Country' 'Northern Cyprus' 'United Koreans in Japan' 'Abkhazia'
+ 'Poland' 'Portugal' 'Chile' 'Western Isles' 'Greenland' 'England'
+ 'Vietnam' 'Oman' 'Western Armenia' 'Tanzania' 'Gambia' 'Northern Ireland'
+ 'Scotland' 'Guadeloupe' 'Iceland' 'Saint Kitts and Nevis' 'Guyana'
+ 'India' 'Åland']
+
+----- Q5: Top Scorer % by Tournament ---
+                    tournament              scorer   percent
+                 AFC Asian Cup            Ali Daei  1.415571
+        African Cup of Nations        Samuel Eto'o  1.018676
+                    Baltic Cup     Ēriks Pētersons  3.930131
+     British Home Championship         Geoff Hurst 12.121212
+CONMEBOL–UEFA Cup of Champions    Claudio Caniggia 14.285714
+            Confederations Cup          Ronaldinho  2.127660
+                  Copa América             Zizinho  0.636466
+                FIFA World Cup      Miroslav Klose  0.588235
+  FIFA World Cup qualification         Carlos Ruiz  0.171519
+                      Gold Cup      Landon Donovan  1.640839
+             NAFC Championship   Luis de la Fuente 30.000000
+           Oceania Nations Cup         Damian Mori  2.621723
+                     UEFA Euro   Cristiano Ronaldo  1.688782
+       UEFA Euro qualification   Cristiano Ronaldo  0.515205
+           UEFA Nations League Aleksandar Mitrović  1.182432
